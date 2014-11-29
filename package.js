@@ -1,7 +1,7 @@
 Package.describe({
   name: 'comerc:lang',
-  summary: 'language selector',
-  version: '0.0.1',
+  summary: 'Language selector for accounts-t9n',
+  version: '0.0.2',
   git: 'https://github.com/comerc/lang.git'
 });
 
@@ -27,8 +27,8 @@ Package.onUse(function(api) {
 
 });
 
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('lang');
-  api.addFiles('lang-tests.js');
-});
+// Package.onTest(function(api) {
+//   api.use('tinytest');
+//   api.use('lang');
+//   api.addFiles('lang-tests.js');
+// });
