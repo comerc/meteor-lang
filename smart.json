@@ -1,0 +1,10 @@
+{
+  "name": "lang",
+  "description": "Language selector for accounts-t9n",
+  "homepage": "https://github.com/comerc/lang/",
+  "version": "0.0.1",
+  "git": "https://github.com/comerc/lang.git",
+  "packages": {
+    "softwarerero:accounts-t9n": "1.0.3"
+  }
+}
