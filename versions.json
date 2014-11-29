@@ -25,10 +25,6 @@
       "1.0.1"
     ],
     [
-      "handlebars",
-      "1.0.1"
-    ],
-    [
       "htmljs",
       "1.0.2"
     ],
@@ -53,10 +49,6 @@
       "1.0.5"
     ],
     [
-      "mrt:accounts-t9n",
-      "0.0.13"
-    ],
-    [
       "observe-sequence",
       "1.0.3"
     ],
@@ -70,6 +62,10 @@
     ],
     [
       "reactive-var",
+      "1.0.3"
+    ],
+    [
+      "softwarerero:accounts-t9n",
       "1.0.3"
     ],
     [

@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.use([
     'underscore',
     'templating',
-    'mrt:accounts-t9n'
+    'softwarerero:accounts-t9n'
   ], 'client');
 
 
