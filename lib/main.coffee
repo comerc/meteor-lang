@@ -1,7 +1,9 @@
 meteorHashTable = (list) ->
   a = []
   _.each list, (val, key) ->
-    a.push({key:key, val:val})
+    a.push
+      key:key
+      val:val
   return a
 
 LangList =
