@@ -22,7 +22,7 @@ Package.onUse(function(api) {
   api.addFiles(['lib/main.coffee', 'lib/main.html'], ['client']);
 
   api.export([
-    'Lang'
+    'LangList'
   ]);
 
 });
