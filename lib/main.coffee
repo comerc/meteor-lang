@@ -4,7 +4,7 @@ meteorHashTable = (list) ->
     a.push({key:key, val:val})
   return a
 
-Lang =
+LangList =
   "ru": "RUS"
   "en": "ENG"
 
@@ -20,7 +20,7 @@ getCookie = (name) ->
 Meteor.startup ->
 
   Template.lang.helpers
-    items: meteorHashTable(Lang)
+    items: meteorHashTable(LangList)
 
   Template.lang.events
     "click a.lang": (event) ->
@@ -31,5 +31,5 @@ Meteor.startup ->
   lang = getCookie("lang")
   unless lang
     lang = window.navigator.language || window.navigator.userLanguage
-  if lang && _.has(Lang, lang)
+  if lang && _.has(LangList, lang)
     T9n.language = lang

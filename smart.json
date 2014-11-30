@@ -3,7 +3,7 @@
   "description": "Language selector for accounts-t9n",
   "homepage": "https://github.com/comerc/lang/",
   "author": "comerc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "git": "https://github.com/comerc/lang.git",
   "packages": {
     "softwarerero:accounts-t9n": "1.0.3"
