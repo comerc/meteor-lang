@@ -3,7 +3,36 @@ lang
 
 Yo! This package allow you add language selector ```{{>lang}}``` in your templates.
 
-If you have **accounts-t9n** package.
+Example for **anti:i18n**
+```
+LangList =
+  "ru": "RUS"
+  "en": "ENG"
+
+Lang.setList LangList
+
+Lang.swith = (lang) ->
+  i18n.setLanguage(lang)
+
+Lang.init = (lang) ->
+  i18n.setDefaultLanguage(lang)
+```
+
+Example for **softwarerero:accounts-t9n**
+```
+LangList =
+  "ru": "RUS"
+  "en": "ENG"
+
+Lang.setList LangList
+
+Lang.swith = (lang) ->
+  T9n.language = lang
+  window.location.reload()
+
+Lang.init = (lang) ->
+  T9n.defaultLanguage = lang
+```
 
 disclaimer: Its my first meteor package. Just for fun.
 

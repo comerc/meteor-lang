@@ -1,7 +1,7 @@
 Package.describe({
   name: 'comerc:lang',
   summary: 'Language selector for accounts-t9n',
-  version: '0.0.3',
+  version: '0.1.0',
   git: 'https://github.com/comerc/lang.git'
 });
 
@@ -13,17 +13,16 @@ Package.onUse(function(api) {
 
   api.use([
     'underscore',
-    'templating',
-    'softwarerero:accounts-t9n@1.0.3'
+    'templating'
   ], 'client');
 
 
   api.versionsFrom('1.0');
-  api.addFiles(['lib/main.coffee', 'lib/main.html'], ['client']);
+  api.addFiles(['lib/main.coffee', 'lib/main.html'], 'client');
 
   api.export([
-    'LangList'
-  ]);
+    'Lang'
+  ], 'client');
 
 });
 

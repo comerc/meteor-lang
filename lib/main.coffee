@@ -6,9 +6,13 @@ meteorHashTable = (list) ->
       val:val
   return a
 
-LangList =
-  "ru": "RUS"
-  "en": "ENG"
+LangList = []
+
+Lang = ->
+  return
+
+Lang.setList = (list) ->
+  LangList = list
 
 getCookie = (name) ->
   fullCookie = document.cookie
@@ -20,7 +24,6 @@ getCookie = (name) ->
   unescape fullCookie.substring(startIndex, endIndex)
 
 Meteor.startup ->
-
   Template.lang.helpers
     items: meteorHashTable(LangList)
 
@@ -29,11 +32,10 @@ Meteor.startup ->
       event.preventDefault()
       lang = event.currentTarget.id
       document.cookie = "lang=" + lang + ";expires=Sat, 01 Jan 2050 00:00:00 GMT"
-      T9n.language = lang
-      window.location.reload()
+      Lang.swith(lang)
 
   lang = getCookie("lang")
   unless lang
     lang = window.navigator.language || window.navigator.userLanguage
   if lang && _.has(LangList, lang)
-    T9n.language = lang
+    Lang.init(lang)
