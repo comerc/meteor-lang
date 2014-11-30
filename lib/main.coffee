@@ -24,6 +24,7 @@ Meteor.startup ->
 
   Template.lang.events
     "click a.lang": (event) ->
+      event.preventDefault()
       lang = event.currentTarget.id
       document.cookie = "lang=" + lang + ";expires=Sat, 01 Jan 2050 00:00:00 GMT"
       T9n.language = lang
