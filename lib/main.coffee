@@ -30,6 +30,7 @@ Meteor.startup ->
       lang = event.currentTarget.id
       document.cookie = "lang=" + lang + ";expires=Sat, 01 Jan 2050 00:00:00 GMT"
       T9n.language = lang
+      window.location.reload()
 
   lang = getCookie("lang")
   unless lang
