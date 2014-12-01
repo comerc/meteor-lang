@@ -1,7 +1,7 @@
 Package.describe({
   name: 'comerc:lang',
-  summary: 'Language selector for accounts-t9n',
-  version: '0.1.0',
+  summary: 'Language selector for any i18n-package',
+  version: '0.1.1',
   git: 'https://github.com/comerc/lang.git'
 });
 

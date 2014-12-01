@@ -1,9 +1,9 @@
 {
   "name": "lang",
-  "description": "Language selector for accounts-t9n",
+  "description": "Language selector for any i18n-package",
   "homepage": "https://github.com/comerc/lang/",
   "author": "comerc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "git": "https://github.com/comerc/lang.git",
   "packages": {}
 }

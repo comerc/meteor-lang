@@ -1,7 +1,7 @@
 lang
 ====
 
-Yo! This package allow you add language selector ```{{>lang}}``` in your templates.
+Yo! This package allow you add language selector ```{{> lang}}``` in your templates.
 
 Example for **anti:i18n**
 ```
@@ -27,8 +27,7 @@ LangList =
 Lang.setList LangList
 
 Lang.swith = (lang) ->
-  T9n.language = lang
-  window.location.reload()
+  T9n.setLanguage(lang)
 
 Lang.init = (lang) ->
   T9n.defaultLanguage = lang
