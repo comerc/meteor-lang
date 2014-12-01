@@ -5,11 +5,11 @@ Yo! This package allow you add language selector ```{{> lang}}``` in your templa
 
 Example for **anti:i18n**
 ```
-LangList =
+langList =
   "ru": "RUS"
   "en": "ENG"
 
-Lang.setList LangList
+Lang.setList(langList)
 
 Lang.swith = (lang) ->
   i18n.setLanguage(lang)
@@ -20,11 +20,11 @@ Lang.init = (lang) ->
 
 Example for **softwarerero:accounts-t9n**
 ```
-LangList =
+langList =
   "ru": "RUS"
   "en": "ENG"
 
-Lang.setList LangList
+Lang.setList(langList)
 
 Lang.swith = (lang) ->
   T9n.setLanguage(lang)
