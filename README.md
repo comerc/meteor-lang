@@ -1,7 +1,7 @@
 lang
 ====
 
-Yo! This package allow you add language selector ```{{> lang}}``` in your templates.
+Yo! This package allow you to add language selector ```{{> lang}}``` in your templates.
 
 Example for **anti:i18n**
 ```
