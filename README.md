@@ -43,4 +43,4 @@ TODO
 
 Functionality like https://www.facebook.com/login.php
 
-*disclaimer*: Its my first meteor package. Just for fun.
+*disclaimer: Its my first meteor package. Just for fun.*
