@@ -33,7 +33,8 @@ Lang.init = (lang) ->
   T9n.defaultLanguage = lang
 ```
 
-disclaimer: Its my first meteor package. Just for fun.
+DEMO
+----
 
 ![demo](https://github.com/comerc/lang/blob/master/lang.gif)
 
@@ -41,3 +42,5 @@ TODO
 ----
 
 Functionality like https://www.facebook.com/login.php
+
+*disclaimer*: Its my first meteor package. Just for fun.
