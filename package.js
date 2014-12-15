@@ -1,8 +1,8 @@
 Package.describe({
   name: 'comerc:lang',
   summary: 'Language selector for any i18n-package',
-  version: '0.1.1',
-  git: 'https://github.com/comerc/lang.git'
+  version: '0.1.2',
+  git: 'https://github.com/comerc/meteor-lang.git'
 });
 
 Package.onUse(function(api) {
