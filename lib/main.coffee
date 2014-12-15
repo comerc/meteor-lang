@@ -84,7 +84,7 @@ common =
   ko: "한국어"
 
 variations =
-  "en-us": "United States"
+  "en-us": "US"
   "en": "UK"
   "es": "España"
   "es-co": "Colombia"
@@ -92,5 +92,6 @@ variations =
   "es-ar": "Argentina"
   "pt": "Brasil"
   "pt-pt": "Portugal"
+  "zh-tw": "台灣"
+  "zh-hk": "香港"
   "zh": "简体"
-  "zh-Hant": "繁體"
