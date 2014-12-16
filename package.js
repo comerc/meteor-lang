@@ -7,6 +7,9 @@ Package.describe({
 
 Package.onUse(function(api) {
 
+  api.use('templating@1.0.0');
+  api.use('blaze@2.0.0');
+
   api.use([
     'coffeescript',
   ], ['client', 'server']);
