@@ -7,9 +7,6 @@ Package.describe({
 
 Package.onUse(function(api) {
 
-  api.use('templating@1.0.0');
-  api.use('blaze@2.0.0');
-
   api.use([
     'coffeescript',
   ], ['client', 'server']);
@@ -18,7 +15,6 @@ Package.onUse(function(api) {
     'underscore',
     'templating'
   ], 'client');
-
 
   api.versionsFrom('1.0');
   api.addFiles(['lib/main.coffee', 'lib/main.html'], 'client');
