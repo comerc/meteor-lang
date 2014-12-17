@@ -4,7 +4,7 @@ lang
 Yo! This package allow you to add language selector ```{{> lang}}``` in your templates.
 
 Example for **anti:i18n**
-```
+```coffee
 langList =
   "ru": "RUS"
   "en": "ENG"
@@ -19,7 +19,7 @@ Lang.init = (lang) ->
 ```
 
 Example for **softwarerero:accounts-t9n**
-```
+```coffee
 langList =
   "ru": "RUS"
   "en": "ENG"
