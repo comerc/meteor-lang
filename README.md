@@ -42,7 +42,7 @@ TODO
 ----
 
 1. Functionality like https://www.facebook.com/login.php
-
 2. html lang="en"
+3. parameters of scripts at head
 
 *disclaimer: Its my first meteor package. Just for fun.*
