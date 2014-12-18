@@ -41,6 +41,8 @@ DEMO
 TODO
 ----
 
-Functionality like https://www.facebook.com/login.php
+1. Functionality like https://www.facebook.com/login.php
+
+2. html lang="en"
 
 *disclaimer: Its my first meteor package. Just for fun.*
