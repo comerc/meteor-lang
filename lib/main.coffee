@@ -8,8 +8,7 @@ meteorHashTable = (list) ->
 
 langList = []
 
-Lang = ->
-  return
+Lang = {}
 
 Lang.setList = (list) ->
   langList = list
@@ -40,7 +39,7 @@ Meteor.startup ->
   if lang && _.has(langList, lang)
     Lang.init(lang)
 
-common =
+Lang.common =
   en: "English"
   de: "Deutsch"
   fr: "Français"
@@ -83,7 +82,7 @@ common =
   ja: "日本語"
   ko: "한국어"
 
-variations =
+Lang.variations =
   "en-us": "US"
   "en": "UK"
   "es": "España"
